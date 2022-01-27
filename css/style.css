@@ -45,9 +45,20 @@ h3 {
   background-color: #fefffe !important;
   margin-top: 1.5rem;
 }
+.c-nav__tekst {
+  color: #fe5100 !important;
+}
 
 .c-header {
   padding: 0 !important;
+}
+
+.c-button {
+  background-color: #fe5100 !important;
+  color: #fefffe;
+}
+.c-button :hover {
+  color: #fe5100;
 }
 
 /*------------------------------------*\

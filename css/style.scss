@@ -50,11 +50,21 @@ h3 {
 .c-nav {
   background-color: $white !important;
   margin-top: 1.5rem;
+  &__tekst {
+    color: $orange !important;
+  }
 }
-
 
 .c-header {
   padding: 0 !important;
+}
+
+.c-button {
+  background-color: $orange !important;
+  color: $white;
+  :hover {
+    color: $orange;
+  }
 }
 /*------------------------------------*\
 #UTILITIES
