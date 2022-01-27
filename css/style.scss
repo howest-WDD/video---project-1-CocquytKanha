@@ -16,7 +16,6 @@ $green: #4ab93a;
 \*------------------------------------*/
 p {
   font-family: "Open Sans", sans-serif;
-  color: $white;
 }
 
 h1 {
@@ -67,6 +66,11 @@ h3 {
     color: $orange;
   }
 }
+
+.c-info {
+  color: $white;
+}
+
 /*------------------------------------*\
 #UTILITIES
 \*------------------------------------*/
@@ -81,3 +85,42 @@ h3 {
 /*------------------------------------*\
 #BOOTSTRAP
 \*------------------------------------*/
+
+.accordion {
+  &-item {
+    font-family: "Open Sans", sans-serif;
+    color: $orange !important;
+  }
+  &-body {
+    border: solid;
+    border-width: 1px;
+    border-color: $orange !important;
+  }
+  &-header {
+    button {
+      font-weight: 700;
+    }
+  }
+  &-button {
+    color: $orange !important;
+    background: none;
+    border: solid;
+    border-width: 1px;
+    border-color: $orange;
+    &::after {
+      filter: invert(51%) sepia(95%) saturate(3005%) hue-rotate(352deg) brightness(95%) contrast(112%);
+    }
+    &:focus {
+      color: $orange;
+      background: none !important;
+      border: solid;
+      border-width: 1px;
+      border-color: $orange;
+      box-shadow: none !important;
+    }
+    &:not(.collapsed) {
+      background: none;
+      color: $orange !important;
+    }
+  }
+}
