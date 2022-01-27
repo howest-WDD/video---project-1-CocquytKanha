@@ -43,6 +43,12 @@ h2 {
   margin: auto;
   margin-top: 1rem;
 }
+
+.c-nav {
+  background-color: $white !important;
+  margin-top: 1.5rem;
+}
+
 /*------------------------------------*\
 #UTILITIES
 \*------------------------------------*/
@@ -50,7 +56,3 @@ h2 {
 /*------------------------------------*\
 #BOOTSTRAP
 \*------------------------------------*/
-
-.c-nav {
-  background-color: $white !important;
-}
