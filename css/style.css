@@ -43,6 +43,14 @@ h2 {
   margin-top: 1.5rem;
 }
 
+.c-video {
+  margin: auto;
+}
+
+.c-header {
+  padding: 0 !important;
+}
+
 /*------------------------------------*\
 #UTILITIES
 \*------------------------------------*/
