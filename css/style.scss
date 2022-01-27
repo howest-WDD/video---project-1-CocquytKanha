@@ -25,7 +25,8 @@ h1 {
 }
 
 h2,
-h3 {
+h3,
+h5 {
   font-family: "Helvetica Neue", sans-serif;
   font-weight: 500;
   color: $white;
@@ -50,9 +51,6 @@ h3 {
 .c-nav {
   background-color: $white !important;
   margin-top: 1.5rem;
-  &__tekst {
-    color: $orange !important;
-  }
 }
 
 .c-header {
