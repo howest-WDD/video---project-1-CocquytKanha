@@ -16,16 +16,19 @@ $green: #4ab93a;
 \*------------------------------------*/
 p {
   font-family: "Open Sans", sans-serif;
+  color: $white;
 }
 
 h1 {
   font-family: "Helvetica Neue", sans-serif;
   font-weight: 700;
+  color: $white;
 }
 
-h2 {
+h3 {
   font-family: "Helvetica Neue", sans-serif;
   font-weight: 500;
+  color: $white;
 }
 /*------------------------------------*\
 #OBJECTS
@@ -49,9 +52,6 @@ h2 {
   margin-top: 1.5rem;
 }
 
-.c-video {
-  margin: auto;
-}
 
 .c-header {
   padding: 0 !important;
