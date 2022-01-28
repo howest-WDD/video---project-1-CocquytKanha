@@ -170,3 +170,12 @@ h5 {
 .carousel-indicators button:not(.active) {
   filter: grayscale(100%);
 }
+
+.btn-outline-danger {
+  border-color: transparent !important;
+  color: #fe5100 !important;
+}
+.btn-outline-danger:hover {
+  color: #fefffe !important;
+  background-color: #fe5100 !important;
+}

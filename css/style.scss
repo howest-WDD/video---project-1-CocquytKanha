@@ -172,3 +172,12 @@ h5 {
     filter: grayscale(100%);
   }
 }
+
+.btn-outline-danger {
+  border-color: transparent !important;
+  color: $orange !important;
+  &:hover {
+    color: $white !important;
+    background-color: $orange !important;
+  }
+}
