@@ -181,3 +181,14 @@ h5 {
     background-color: $orange !important;
   }
 }
+
+.c-footer-tekst {
+  color: $orange !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: $orange !important;
+  &:hover {
+    color: $green !important;
+  }
+}

@@ -179,3 +179,14 @@ h5 {
   color: #fefffe !important;
   background-color: #fe5100 !important;
 }
+
+.c-footer-tekst {
+  color: #fe5100 !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fe5100 !important;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #4ab93a !important;
+}
